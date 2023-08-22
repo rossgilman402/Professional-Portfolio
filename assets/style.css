@@ -69,12 +69,21 @@ main {
 }
 
 .work-header {
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 .left-side {
   flex-direction: column;
   margin: 25px 5% 25px 15%;
+}
+
+.middle-section {
+  display: flex;
+  margin: 20px 0;
+  width: 30px;
+  height: 645px;
+  border-radius: 10px;
+  background-color: var(--dark);
 }
 
 .about-me-section {
@@ -103,4 +112,42 @@ main {
   border: solid 2px var(--dark);
   background-color: var(--light);
   border-radius: 8px;
+}
+
+.card.surf {
+  background-image: url("./images/surf.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.card.password {
+  background-image: url("./images/password.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.card.refractor {
+  background-image: url("./images/coding.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.card.calculator {
+  background-image: url("./images/calculator.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.card.books {
+  background-image: url("./images/books.webp");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/* phone style */
+@media screen and (max-width: 700px) {
+  nav ul {
+    flex-direction: column;
+    order: 2;
+  }
 }
