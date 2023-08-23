@@ -1,0 +1,122 @@
+/* variable styles */
+:root {
+  --font-color: rgb(129, 127, 127);
+  --dark: #13293d;
+}
+
+/* global style */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* header and footer styles */
+header {
+  background-image: url("./images/composition.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  color: var(--font-color);
+}
+
+h1 {
+  font-size: 200%;
+  margin-left: 10px;
+  padding: 5px;
+  border-color: var(--dark);
+  border-radius: 10px;
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  background-color: #fff;
+  list-style-type: none;
+  border-radius: 10px;
+  padding: 0;
+}
+
+nav a {
+  color: var(--font-color);
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 140%;
+}
+
+nav a:hover {
+  color: var(--dark);
+}
+
+main {
+  flex-direction: column;
+}
+
+footer {
+  background-image: url("./images/composition.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  color: var(--font-color);
+}
+
+/* main and aside styles */
+
+@media screen and (min-width: 650px) {
+  /* header styles */
+  header {
+    background-image: url("./images/composition.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    color: var(--font-color);
+  }
+
+  h1 {
+    font-size: 200%;
+    margin-left: 10px;
+    padding: 5px;
+    border-color: var(--dark);
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  nav ul {
+    display: flex;
+    background-color: #fff;
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 0;
+  }
+
+  nav a {
+    color: var(--font-color);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 140%;
+  }
+
+  nav a:hover {
+    color: var(--dark);
+  }
+
+  footer {
+    background-image: url("./images/composition.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    color: var(--font-color);
+  }
+
+  /* content styles */
+}
