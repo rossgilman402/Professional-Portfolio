@@ -66,6 +66,16 @@ footer {
 }
 
 /* main and aside styles */
+main {
+  display: flex;
+  align-items: center;
+}
+
+embed {
+  margin: 80px;
+  height: 500px;
+  width: 65%;
+}
 
 @media screen and (min-width: 650px) {
   /* header styles */
@@ -119,4 +129,14 @@ footer {
   }
 
   /* content styles */
+  main {
+    display: flex;
+    align-items: center;
+  }
+
+  embed {
+    margin: 80px;
+    height: 700px;
+    width: 65%;
+  }
 }
